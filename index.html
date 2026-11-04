@@ -40,6 +40,7 @@ window.addEventListener('load',()=>{const run=()=>{draws.forEach(([n,fn])=>docum
 .sx-keys{display:flex;flex-wrap:wrap;gap:.35rem 1rem;margin-top:.6rem;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
 .sx-key i{display:inline-block;width:.7rem;height:.7rem;border-radius:2px;margin-right:.35rem;vertical-align:-1px}
 .sx-scroll{overflow-x:auto;margin-top:.75rem}
+.sx-card:has(table[data-source="conversas"]){width:min(1240px,calc(100vw - 48px));max-width:none;align-self:center}
 .sx table{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums}
 .sx th{text-align:left;font-weight:var(--cds-font-weight-medium);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);padding:.5rem .6rem;border-bottom:1px solid var(--color-border-line);white-space:nowrap}
 .sx td{padding:.6rem;border-bottom:1px solid var(--color-border-line);vertical-align:top;line-height:1.4}
